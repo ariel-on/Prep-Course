@@ -1,0 +1,19 @@
+##Definicion de los siguientes conceptos:
+
+Variables: Es la declaracion de un nombre por medio de la palabra reservada "const", var" o "let" en donde guardaremos un valor. Esos valores 
+            tienen tipos, por ejemplo un numero, una palabra, una  letra, un booleano, etc. Ej var num = 4; let vehiculo = "moto";
+            
+
+ Strings: Es el "tipo" de valor que recibe una variable cuando lo que va a guardar es una nombre o palabra. Ej var nombre = "Carlos";
+
+ Funciones (argumentos, `return`): Son intrucciones que damos para que se realice algo especifico, por ejemplo una suma, una resta,
+               o si es par. Los "argumentos" son los valores que le pasamos a la funcion para que haga lo que la creamos.
+               Y "return" es el resultado que devuelve la funcion. Ej si a=2 y b=5...
+           function suma(a, b) { suma= a + b } return suma; suma me devolveria 7
+
+ Declaraciones `if`: Las declaraciones if son condicionales, si cumple con la condicion hace algo, si no, no lo hace. Ej: si edad>18
+               puede sacar licencia de conducir, si no mensaje: "Aun es menor de edad". 
+
+ Valores booleanos: Estos valores `true`, `false` nos permiten evaluar si el valor de algun tipo de dato con el que debamos hacer 
+               algo es verdadero o falso. El uso es tambien condicional. Ej: si mayor = true
+               puede sacar licencia de conducir, si no mensaje: "Aun es menor de edad". 
