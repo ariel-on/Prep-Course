@@ -7,7 +7,7 @@ const nuevaString = "palabra";
 const nuevoNum = 24;
 
 // Crea una variable booleana:
-const nuevoBool = ok;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,10 +28,8 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str.TextDecoder();
-     
+  return str;     
 }
-
 
 function suma(x, y) {
   // "x" e "y" son números
@@ -62,7 +60,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:  
-  if(x - y === 0){
+  if(x === y ){
     return true;
   } else{
     return false;
@@ -74,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   //int length = name.length();
-    if(str1.length() === str2.length()) {
+    if(str1.length === str2.length) {
     return true;
     }else{
       return false;
@@ -154,8 +152,7 @@ function elevarAlCubo(num) {
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
-  // Tu código:
-  
+  // Tu código:  
   //var res = 1;    while(exponent >= 1){  res = res * num;  exponent-1;}  return res; 
   return Math.pow(num, exponent);
 }
@@ -163,30 +160,19 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  //return  Math.round(num); 
-  var res= num % 1;
-  var entero = num - res;
-  if (res >= 0.5) {
-    return entero +1;
-  }else{
-    return entero;
-  }
+    return  Math.round(num);   
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
- //return Math.ceil(num); 
-  var res= num % 1;
-  var entero = num - res;
-  
-    return entero +1;
+   return Math.ceil(num);   
   } 
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.floor(Math.random()*100);
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -256,7 +242,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1.093;
+  return euro * 1.20;
 }
 
 
