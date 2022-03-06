@@ -1,0 +1,39 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como 
+si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier 
+agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+1. Utilizamos el 'for' como una expresion en forma de bucle que va a ser evaluada un numero de veces,
+ para buscar, o hacer alguna tarea, hasta llegar al limite que le hemos dado. Si encuentra o finaliza 
+ lo que le pedimos saldra de ese bucle en el momento, aunque no haya repetido la cantidad que le dimos
+ como limite. Es una repeticion de ciclos hasta encontrar el argumento que le pasamos o hasta llegar a
+ la cantidad de veces que se definio, para que no haga una repeticion infinita. 
+
+  El doble ampersand `&&` (es equivalente al AND) es operador lògico y condicional que se usa para 
+  evaluar si dos o mas argumentos cumplen con la condicion (son verdaderos) . Si el primer argumento que
+  analiza es falso automaticamente darà 'false', solo serà verdadero si todos los argumentos son'true'.
+  Ej:   if( 4 === 4; && 10 < 20; && 2 % 2 === 0){
+             return true;
+             }else{
+             return false;   
+  }  
+
+  La doble barra `||` es (es equivalente al OR) tambien es un operador lògico y condicional pero èste evalua
+  si entre los argumentos pasados por lo menos hay uno que cumpla con la condicion y sera 'true'(verdadero)
+  y solo sera 'false' si todos son falsos.
+  Ej:   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+    return "Es vocal"
+  }else{
+    return ("No es vocal");
+  }  
+
+  El signo de exclamaciòn `!`(equivalente al NOT) se usa anteponiendose para negar una condicion o algùn operador
+  logico. Esto permite evaluar la condicion de manera inversa.
+   Ej:      if(!(10 < 20)){
+             return false;
+             }else{
+             return true;   
+  } 
+  10 es menor que 20 pero al anteponer el operador `!` devolverá el valor booleano opuesto de lo que se le pasa.
