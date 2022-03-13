@@ -1,0 +1,8 @@
+## Definicion de Arrays ##
+
+Arrays: Los arrays son un tipo de dato como las cadenas o strings, numeros, o booleanos pero estos guardan un conjunto
+de ellos, se declara una variable y entre "[]" se guardan los valores separados por coma. Se puede acceder a cada uno 
+de estos datos con el metodo `.length`, la matriz`.length` devolverá el número de elementos de la matriz:
+Ej: var nombres = ['Juan', 'Julia', 'Elsa'];
+
+console.log(nombres.length);  // 3
