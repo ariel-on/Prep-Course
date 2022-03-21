@@ -1,0 +1,33 @@
+      Definiciones JS-V
+
+
+	* Objetos: Un objeto contienen mucha información sobre una sola cosa. Es un contenedor de propiedades, donde una
+      propiedad tiene un nombre y un valor. El nombre de una propiedad pueden ser cualquier tipo de dato de Javascript; cadena, número, booleano, matriz, función o 
+      incluso otro objeto. 
+      
+	* Propiedades: Podemos decir que las propiedades son las caracteristicas del objeto, como ser color, peso, altura,
+      etc. Estas se componen de pares clave: valor; osea un nombre y un valor como Ej color:rojo;
+
+	* Métodos: Sos valores que se pueden definir en funciones que tienen su nombre y un valor como una funcion
+      que nos permite una accion. Ej const numeroString = {
+                                     contarString: function(string) {
+                                     console.log(string.length);
+                                     }
+                                   } 
+	* Bucle `for…in`: Para poder iterar sobre cada par clave-valor de nuestro objeto, como èste no contienen índices 
+      numéricos, no se puede hacer como un arreglo. "_for ... in loop_". usa una sintaxis diferente, comienza como el
+      for, pero entre paréntesis declararemos una variable, la palabra clave `in` y el nombre del objeto. Esto 
+      recorrerá cada clave del objeto y finalizará cuando se hayan iterado todas las claves.
+
+    * Notación de puntos vs notación de corchetes: Utilizamos la notacion de punto para acceder al valor del objeto, aunque
+    tambien se puede accerder con notacion de corchetes.
+    Ej        usuario.password = '12345';
+              usuario['password'] = '12345';
+      La notacion de corchetes se usan casi siempre se variables
+    Ej        const user = {
+                            name: "John",
+                            age: 30,
+                            "likes development": true 
+                        };
+    La “notación de corchetes” es una alternativa que funciona con cualquier string:              
+                        user["likes birds"] = true;
