@@ -1,0 +1,6 @@
+Definicionnes JS-VI
+
+* Funciones Callback: es la forma que tenemos de pasar una función como argumento a otra función.
+                      Podemos llamar estas funciones cuando querramos y pasar argumentos dentro
+                      de la función. Debemos usar `cb` como argumento para la variable que se 
+                      usará de callback.
