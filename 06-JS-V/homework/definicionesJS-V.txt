@@ -1,0 +1,14 @@
+Definiciones JS-V
+
+
+* `prototype`: Se usa para tener acceso a mecanismos de herencia, los objetos pueden tener un 
+               objeto prototype, èsto seria como una plantilla de la que hereda métodos y
+               propiedades. Las clases tienen una forma única de establecer un método una vez
+               y dar acceso a cada objeto de esa clase a esos métodos
+
+* _Constructors_ (de Clases): Cada función de constructor tiene una propiedad  `prototype` ese 
+               valor es un objeto que contiene una propiedad constructor. Se usa para asignar 
+               valores iniciales al objeto creado o para realizar cualquier otro procedimiento
+               de inicio necesario para crear un objeto.
+
+
